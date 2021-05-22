@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "484084127796",
+    "firebase_url": "https://quizmobile-hafiz-nik-hakeem.firebaseio.com",
+    "project_id": "quizmobile-hafiz-nik-hakeem",
+    "storage_bucket": "quizmobile-hafiz-nik-hakeem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484084127796:android:ec0cde2e97ae6920005261",
+        "android_client_info": {
+          "package_name": "com.example.quizmobilemuhammadhafiz_nikahmadfaisal_abdulhakeemmirza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484084127796-bmlu1jn3d77lbmg4orkprt01t1cue0uj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quizmobilemuhammadhafiz_nikahmadfaisal_abdulhakeemmirza",
+            "certificate_hash": "e89f7adeb1754aa9629778ba1cc493b4365e0fdb"
+          }
+        },
+        {
+          "client_id": "484084127796-nak2f4m1g3kuooae30si2jn4apsffu3h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgNGl_4LbMKW6cMeAFNE1DEHfm8FvZ6GQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484084127796-nak2f4m1g3kuooae30si2jn4apsffu3h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

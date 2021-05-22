@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="#3A3A3A"
+        android:paddingTop="8dp"
+        android:paddingHorizontal="16dp"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textViewOpt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#3A3A3A"
+        android:paddingHorizontal="16dp"
+        android:textSize="12sp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textViewOpt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#3A3A3A"
+        android:paddingHorizontal="16dp"
+        android:textSize="12sp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textViewOpt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#3A3A3A"
+        android:paddingHorizontal="16dp"
+        android:textSize="12sp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textViewOpt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#3A3A3A"
+        android:paddingHorizontal="16dp"
+        android:textSize="12sp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textViewAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#3A3A3A"
+        android:paddingHorizontal="16dp"
+        android:textSize="12sp"
+        android:paddingBottom="8dp"
+        android:text="" />
+
+</LinearLayout>

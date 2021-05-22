@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="ADD QUESTION"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="top|left"
+        android:hint="Enter question"
+        android:inputType="textCapSentences|textMultiLine"
+        android:lines="3"
+        android:maxLines="3"
+        android:minLines="3" />
+
+    <EditText
+        android:id="@+id/editTextOpt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Option 1"
+        android:inputType="textCapSentences|text" />
+
+    <EditText
+        android:id="@+id/editTextOpt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Option 2"
+        android:inputType="textCapSentences|text" />
+
+    <EditText
+        android:id="@+id/editTextOpt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Option 3"
+        android:inputType="textCapSentences|text" />
+
+    <EditText
+        android:id="@+id/editTextOpt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Option 4"
+        android:inputType="textCapSentences|text" />
+
+    <EditText
+        android:id="@+id/editTextAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Answer"
+        android:inputType="textCapSentences|text" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Add Question" />
+
+</LinearLayout>

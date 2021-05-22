@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.quizmobilemuhammadhafiz_nikahmadfaisal_abdulhakeemmirza.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#006064"
+        android:gravity="center"
+        android:layout_gravity="top"
+        android:text="Question List"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="16dp"/>
+
+
+    <FrameLayout
+        android:layout_above="@id/bottom_navigation"
+        android:layout_below="@id/textView2"
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="NotSibling">
+
+
+
+
+        <!-- Main content -->
+
+        <!--<View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:layout_above="@id/bottom_navigation"
+            android:background="@drawable/navbarshadow"/>-->
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#FFFFFF"
+            app:menu="@menu/bottom_navigation" />
+
+
+
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Logout" />
+
+        <TextView
+            android:id="@+id/homeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:text="Welcome to the Quiz!"
+            android:textSize="35sp"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/buttonOptionCard1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Option 1" />
+
+        <Button
+            android:id="@+id/buttonOptionCard2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Option 2" />
+
+        <Button
+            android:id="@+id/buttonOptionCard3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Option 3" />
+
+        <Button
+            android:id="@+id/buttonOptionCard4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Option 4" />
+
+        <Button
+            android:id="@+id/buttonOptionCard5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Option 5" />
+
+        <Button
+            android:id="@+id/buttonOptionCard6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Option 6" />
+
+        <Button
+            android:id="@+id/buttonOptionCard7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Option 7" />
+
+        <Button
+            android:id="@+id/buttonOptionCard8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Option 8" />
+
+        <Button
+            android:id="@+id/buttonOptionCard9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Option 9" />
+
+        <Button
+            android:id="@+id/buttonOptionCard10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Option 10" />
+
+    </LinearLayout>
+</RelativeLayout>
